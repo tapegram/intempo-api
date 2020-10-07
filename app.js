@@ -1,5 +1,5 @@
 'use strict';
-import hello from 'src/main';
+const main = require("src/main");
 
 const express = require('express');
 
@@ -7,7 +7,7 @@ const app = express();
 
 // Routes
 app.get('/*', (req, res) => {
-  res.send(`Request was received: ${req.method} - ${req.path}, ${hello()}`);
+  res.send(`Request was received: ${req.method} - ${req.path}, ${main.hello()}`);
 });
 
 // Error handler

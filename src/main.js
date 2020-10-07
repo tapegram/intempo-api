@@ -1,3 +1,3 @@
 const hello = require("./hello.bs");
 
-exports.hello = hello;
+exports.hello = hello.hello;
