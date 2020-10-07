@@ -1,0 +1,17 @@
+{
+    "name": "aws-lambda-reasonml",
+    "sources": [
+      "src/"
+    ],
+    "package-specs": {
+      "module": "commonjs",
+      "in-source": true
+    },
+    "suffix": ".bs.js",
+    "bs-dependencies": [
+    ],
+    "bsc-flags": [
+      "-bs-super-errors"
+    ],
+    "refmt": 3
+}
