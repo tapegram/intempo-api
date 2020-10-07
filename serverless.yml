@@ -1,0 +1,7 @@
+org: tavish
+app: intempo-api
+component: express
+name: express-starter
+
+inputs:
+  src: ./
